@@ -1,5 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: beige;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #424242;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+a {
+  color: #A7A7A7;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  border-right: 1px solid black;
+  border-left: 1px solid #424242;
+}
+.container video {
+  width: 100%;
+  height: 236px;
+}
+.container article {
+  margin: 10px 5%;
+  text-align: center;
+}
+.container .link-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.container .link-wrap a {
+  margin: 35px 0 10px 0;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+.container #twin-pics {
+  border: 1px red solid;
+  display: flex;
+}
+.container .pic1 {
+  background-image: url(/bamboo.eb49e78f.jpg);
+  width: 225px;
+  height: 282px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .pic2 {
+  background-image: url(/karateko.a16580b2.jpg);
+  width: 225px;
+  height: 282px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=/app.c328ef1a.css.map */
