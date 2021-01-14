@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\media\\bamboo.jpg":[["bamboo.eb49e78f.jpg","media/bamboo.jpg"],"media/bamboo.jpg"],"./..\\media\\karateko.jpg":[["karateko.a16580b2.jpg","media/karateko.jpg"],"media/karateko.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"app.js":[function(require,module,exports) {
+},{"./..\\media\\bamboo.jpg":[["bamboo.eb49e78f.jpg","media/bamboo.jpg"],"media/bamboo.jpg"],"./..\\media\\karateko.jpg":[["karateko.a16580b2.jpg","media/karateko.jpg"],"media/karateko.jpg"],"./..\\media\\opening-quotes.JPG":[["opening-quotes.625ac8cd.JPG","media/opening-quotes.JPG"],"media/opening-quotes.JPG"],"./..\\media\\closing-quotes.JPG":[["closing-quotes.288e089d.JPG","media/closing-quotes.JPG"],"media/closing-quotes.JPG"],"./..\\media\\texture-dark.png":[["texture-dark.5432c0a6.png","media/texture-dark.png"],"media/texture-dark.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 require("./css/styles.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "28414" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "28911" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
