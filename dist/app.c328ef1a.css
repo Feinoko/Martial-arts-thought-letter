@@ -37,6 +37,11 @@ a {
   font-style: italic;
 }
 
+#footer {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
 .container {
   max-width: 450px;
   margin: 0 auto;
@@ -110,11 +115,40 @@ a {
   background-position: center;
   margin-left: 10px;
 }
-.container #pattern {
+.container #pattern1 {
   height: 84px;
   width: 100%;
   background: url(/texture-dark.5432c0a6.png), linear-gradient(337deg, black 0%, #505050 100%);
   background-blend-mode: screen;
+}
+.container #village {
+  height: 299px;
+  width: 450px;
+  background-image: url(/village.42b5916b.jpg);
+  background-size: contain;
+  margin-bottom: calc(10px*2);
+}
+.container #footer {
+  padding: 31px 0;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.container #footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.3;
+  background: url(/texture-dark.5432c0a6.png);
+}
+.container #footer span {
+  padding: 3px;
+}
+.container #footer span:nth-child(odd) {
+  border: 1px #A7A7A7 solid;
 }
 
 /*# sourceMappingURL=/app.c328ef1a.css.map */
