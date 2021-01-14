@@ -1,0 +1,1 @@
+{"version":3,"sources":["css\\styles.scss"],"names":[],"mappings":"AAEA;EACE,kBAHM","file":"app.c328ef1a.css","sourceRoot":"..\\src","sourcesContent":["$color: beige;\r\n\r\nbody {\r\n  background-color: $color;\r\n}"]}
